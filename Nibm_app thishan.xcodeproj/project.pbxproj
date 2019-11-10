@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2570DBEF61650904C4ACA53B /* Pods_Nibm_app_thishanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573415CAA29F3EB8CDD1B625 /* Pods_Nibm_app_thishanUITests.framework */; };
+		A3952FC823641604007E8A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FC723641604007E8A64 /* AppDelegate.swift */; };
+		A3952FCA23641604007E8A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FC923641604007E8A64 /* ViewController.swift */; };
+		A3952FCD23641604007E8A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3952FCB23641604007E8A64 /* Main.storyboard */; };
+		A3952FCF23641605007E8A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3952FCE23641605007E8A64 /* Assets.xcassets */; };
+		A3952FD223641605007E8A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3952FD023641605007E8A64 /* LaunchScreen.storyboard */; };
+		A3952FDD23641605007E8A64 /* Nibm_app_thishanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FDC23641605007E8A64 /* Nibm_app_thishanTests.swift */; };
+		A3952FE823641605007E8A64 /* Nibm_app_thishanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FE723641605007E8A64 /* Nibm_app_thishanUITests.swift */; };
+		A3952FF623642FF8007E8A64 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FF523642FF8007E8A64 /* SignUpViewController.swift */; };
+		A3952FF823643017007E8A64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FF723643017007E8A64 /* LoginViewController.swift */; };
+		A3952FFA23643040007E8A64 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FF923643040007E8A64 /* HomeViewController.swift */; };
+		A3952FFE236497B4007E8A64 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3952FFD236497B4007E8A64 /* Utilities.swift */; };
+		A774FF6D409D59E0B32B688D /* Pods_Nibm_app_thishan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */; };
+		A80AADBE237373F900F0E235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A80AADBD237373F900F0E235 /* GoogleService-Info.plist */; };
+		A81AB1BE23788CAB009F3D9A /* selfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AB1BD23788CAB009F3D9A /* selfViewController.swift */; };
+		A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */; };
+		A84571A7237609E60085DFD0 /* RestPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */; };
+		A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAC4502374CBB100ECE1E7 /* Constants.swift */; };
+		C46F58B65406CD590B1F925F /* Pods_Nibm_app_thishanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394EC7B9644831AEEFA04F0 /* Pods_Nibm_app_thishanTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3952FD923641605007E8A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3952FBC23641604007E8A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3952FC323641604007E8A64;
+			remoteInfo = "Nibm_app thishan";
+		};
+		A3952FE423641605007E8A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3952FBC23641604007E8A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3952FC323641604007E8A64;
+			remoteInfo = "Nibm_app thishan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3998851224F2C9D59E4B14F2 /* Pods-Nibm_app thishan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishan.release.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishan/Pods-Nibm_app thishan.release.xcconfig"; sourceTree = "<group>"; };
+		4DBA649032ACF8E866854CC5 /* Pods-Nibm_app thishanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishanTests.debug.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishanTests/Pods-Nibm_app thishanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		521104E4C0000BB1B0124789 /* Pods-Nibm_app thishan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishan.debug.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishan/Pods-Nibm_app thishan.debug.xcconfig"; sourceTree = "<group>"; };
+		573415CAA29F3EB8CDD1B625 /* Pods_Nibm_app_thishanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibm_app_thishanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6394EC7B9644831AEEFA04F0 /* Pods_Nibm_app_thishanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibm_app_thishanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFECB404C1C40E473741985 /* Pods-Nibm_app thishanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishanUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishanUITests/Pods-Nibm_app thishanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A04CAEE0352AE0FD91236150 /* Pods-Nibm_app thishanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishanTests.release.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishanTests/Pods-Nibm_app thishanTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3952FC423641604007E8A64 /* Nibm_app thishan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nibm_app thishan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3952FC723641604007E8A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3952FC923641604007E8A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3952FCC23641604007E8A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3952FCE23641605007E8A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3952FD123641605007E8A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3952FD323641605007E8A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3952FD823641605007E8A64 /* Nibm_app thishanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nibm_app thishanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3952FDC23641605007E8A64 /* Nibm_app_thishanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibm_app_thishanTests.swift; sourceTree = "<group>"; };
+		A3952FDE23641605007E8A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3952FE323641605007E8A64 /* Nibm_app thishanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nibm_app thishanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3952FE723641605007E8A64 /* Nibm_app_thishanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibm_app_thishanUITests.swift; sourceTree = "<group>"; };
+		A3952FE923641605007E8A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3952FF523642FF8007E8A64 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A3952FF723643017007E8A64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A3952FF923643040007E8A64 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3952FFD236497B4007E8A64 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A7001646601E5AB8D8B98147 /* Pods-Nibm_app thishanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishanUITests.release.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishanUITests/Pods-Nibm_app thishanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A80AADBD237373F900F0E235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A81AB1BD23788CAB009F3D9A /* selfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfViewController.swift; sourceTree = "<group>"; };
+		A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPasswordViewController.swift; sourceTree = "<group>"; };
+		A8DAC4502374CBB100ECE1E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibm_app_thishan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3952FC123641604007E8A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A774FF6D409D59E0B32B688D /* Pods_Nibm_app_thishan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FD523641605007E8A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46F58B65406CD590B1F925F /* Pods_Nibm_app_thishanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FE023641605007E8A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570DBEF61650904C4ACA53B /* Pods_Nibm_app_thishanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463C4CC4B8FE0638A3A67E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */,
+				6394EC7B9644831AEEFA04F0 /* Pods_Nibm_app_thishanTests.framework */,
+				573415CAA29F3EB8CDD1B625 /* Pods_Nibm_app_thishanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3952FBB23641604007E8A64 = {
+			isa = PBXGroup;
+			children = (
+				A3952FC623641604007E8A64 /* Nibm_app thishan */,
+				A3952FDB23641605007E8A64 /* Nibm_app thishanTests */,
+				A3952FE623641605007E8A64 /* Nibm_app thishanUITests */,
+				A3952FC523641604007E8A64 /* Products */,
+				F59C1F2F126073C913445336 /* Pods */,
+				463C4CC4B8FE0638A3A67E7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3952FC523641604007E8A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3952FC423641604007E8A64 /* Nibm_app thishan.app */,
+				A3952FD823641605007E8A64 /* Nibm_app thishanTests.xctest */,
+				A3952FE323641605007E8A64 /* Nibm_app thishanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3952FC623641604007E8A64 /* Nibm_app thishan */ = {
+			isa = PBXGroup;
+			children = (
+				A3952FC723641604007E8A64 /* AppDelegate.swift */,
+				A3952FFD236497B4007E8A64 /* Utilities.swift */,
+				A3952FCB23641604007E8A64 /* Main.storyboard */,
+				A3952FFC23645AFE007E8A64 /* VeiwController */,
+				A3952FCE23641605007E8A64 /* Assets.xcassets */,
+				A3952FD023641605007E8A64 /* LaunchScreen.storyboard */,
+				A80AADBD237373F900F0E235 /* GoogleService-Info.plist */,
+				A3952FD323641605007E8A64 /* Info.plist */,
+				A8DAC4502374CBB100ECE1E7 /* Constants.swift */,
+				A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */,
+			);
+			path = "Nibm_app thishan";
+			sourceTree = "<group>";
+		};
+		A3952FDB23641605007E8A64 /* Nibm_app thishanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3952FDC23641605007E8A64 /* Nibm_app_thishanTests.swift */,
+				A3952FDE23641605007E8A64 /* Info.plist */,
+			);
+			path = "Nibm_app thishanTests";
+			sourceTree = "<group>";
+		};
+		A3952FE623641605007E8A64 /* Nibm_app thishanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3952FE723641605007E8A64 /* Nibm_app_thishanUITests.swift */,
+				A3952FE923641605007E8A64 /* Info.plist */,
+			);
+			path = "Nibm_app thishanUITests";
+			sourceTree = "<group>";
+		};
+		A3952FFC23645AFE007E8A64 /* VeiwController */ = {
+			isa = PBXGroup;
+			children = (
+				A3952FF523642FF8007E8A64 /* SignUpViewController.swift */,
+				A3952FF723643017007E8A64 /* LoginViewController.swift */,
+				A3952FF923643040007E8A64 /* HomeViewController.swift */,
+				A3952FC923641604007E8A64 /* ViewController.swift */,
+				A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */,
+				A81AB1BD23788CAB009F3D9A /* selfViewController.swift */,
+			);
+			path = VeiwController;
+			sourceTree = "<group>";
+		};
+		F59C1F2F126073C913445336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521104E4C0000BB1B0124789 /* Pods-Nibm_app thishan.debug.xcconfig */,
+				3998851224F2C9D59E4B14F2 /* Pods-Nibm_app thishan.release.xcconfig */,
+				4DBA649032ACF8E866854CC5 /* Pods-Nibm_app thishanTests.debug.xcconfig */,
+				A04CAEE0352AE0FD91236150 /* Pods-Nibm_app thishanTests.release.xcconfig */,
+				7AFECB404C1C40E473741985 /* Pods-Nibm_app thishanUITests.debug.xcconfig */,
+				A7001646601E5AB8D8B98147 /* Pods-Nibm_app thishanUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3952FC323641604007E8A64 /* Nibm_app thishan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3952FEC23641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishan" */;
+			buildPhases = (
+				9D08D04084480D66F4AB886B /* [CP] Check Pods Manifest.lock */,
+				A3952FC023641604007E8A64 /* Sources */,
+				A3952FC123641604007E8A64 /* Frameworks */,
+				A3952FC223641604007E8A64 /* Resources */,
+				E033115A87143745D2A2C2E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nibm_app thishan";
+			productName = "Nibm_app thishan";
+			productReference = A3952FC423641604007E8A64 /* Nibm_app thishan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3952FD723641605007E8A64 /* Nibm_app thishanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3952FEF23641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishanTests" */;
+			buildPhases = (
+				0EBBE9594F21761D7909DF15 /* [CP] Check Pods Manifest.lock */,
+				A3952FD423641605007E8A64 /* Sources */,
+				A3952FD523641605007E8A64 /* Frameworks */,
+				A3952FD623641605007E8A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3952FDA23641605007E8A64 /* PBXTargetDependency */,
+			);
+			name = "Nibm_app thishanTests";
+			productName = "Nibm_app thishanTests";
+			productReference = A3952FD823641605007E8A64 /* Nibm_app thishanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3952FE223641605007E8A64 /* Nibm_app thishanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3952FF223641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishanUITests" */;
+			buildPhases = (
+				9A9A4A32574C8D9DB89BC587 /* [CP] Check Pods Manifest.lock */,
+				A3952FDF23641605007E8A64 /* Sources */,
+				A3952FE023641605007E8A64 /* Frameworks */,
+				A3952FE123641605007E8A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3952FE523641605007E8A64 /* PBXTargetDependency */,
+			);
+			name = "Nibm_app thishanUITests";
+			productName = "Nibm_app thishanUITests";
+			productReference = A3952FE323641605007E8A64 /* Nibm_app thishanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3952FBC23641604007E8A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Thushal Madhushankha";
+				TargetAttributes = {
+					A3952FC323641604007E8A64 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A3952FD723641605007E8A64 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A3952FC323641604007E8A64;
+					};
+					A3952FE223641605007E8A64 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A3952FC323641604007E8A64;
+					};
+				};
+			};
+			buildConfigurationList = A3952FBF23641604007E8A64 /* Build configuration list for PBXProject "Nibm_app thishan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3952FBB23641604007E8A64;
+			productRefGroup = A3952FC523641604007E8A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3952FC323641604007E8A64 /* Nibm_app thishan */,
+				A3952FD723641605007E8A64 /* Nibm_app thishanTests */,
+				A3952FE223641605007E8A64 /* Nibm_app thishanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3952FC223641604007E8A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3952FD223641605007E8A64 /* LaunchScreen.storyboard in Resources */,
+				A80AADBE237373F900F0E235 /* GoogleService-Info.plist in Resources */,
+				A3952FCF23641605007E8A64 /* Assets.xcassets in Resources */,
+				A3952FCD23641604007E8A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FD623641605007E8A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FE123641605007E8A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBBE9594F21761D7909DF15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nibm_app thishanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9A4A32574C8D9DB89BC587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nibm_app thishanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D08D04084480D66F4AB886B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nibm_app thishan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E033115A87143745D2A2C2E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nibm_app thishan/Pods-Nibm_app thishan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nibm_app thishan/Pods-Nibm_app thishan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nibm_app thishan/Pods-Nibm_app thishan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3952FC023641604007E8A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81AB1BE23788CAB009F3D9A /* selfViewController.swift in Sources */,
+				A3952FFE236497B4007E8A64 /* Utilities.swift in Sources */,
+				A3952FFA23643040007E8A64 /* HomeViewController.swift in Sources */,
+				A3952FF823643017007E8A64 /* LoginViewController.swift in Sources */,
+				A3952FF623642FF8007E8A64 /* SignUpViewController.swift in Sources */,
+				A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */,
+				A3952FCA23641604007E8A64 /* ViewController.swift in Sources */,
+				A84571A7237609E60085DFD0 /* RestPasswordViewController.swift in Sources */,
+				A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */,
+				A3952FC823641604007E8A64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FD423641605007E8A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3952FDD23641605007E8A64 /* Nibm_app_thishanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3952FDF23641605007E8A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3952FE823641605007E8A64 /* Nibm_app_thishanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3952FDA23641605007E8A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3952FC323641604007E8A64 /* Nibm_app thishan */;
+			targetProxy = A3952FD923641605007E8A64 /* PBXContainerItemProxy */;
+		};
+		A3952FE523641605007E8A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3952FC323641604007E8A64 /* Nibm_app thishan */;
+			targetProxy = A3952FE423641605007E8A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3952FCB23641604007E8A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3952FCC23641604007E8A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3952FD023641605007E8A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3952FD123641605007E8A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3952FEA23641605007E8A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3952FEB23641605007E8A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3952FED23641605007E8A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521104E4C0000BB1B0124789 /* Pods-Nibm_app thishan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3952FEE23641605007E8A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3998851224F2C9D59E4B14F2 /* Pods-Nibm_app thishan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3952FF023641605007E8A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBA649032ACF8E866854CC5 /* Pods-Nibm_app thishanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nibm_app thishan.app/Nibm_app thishan";
+			};
+			name = Debug;
+		};
+		A3952FF123641605007E8A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04CAEE0352AE0FD91236150 /* Pods-Nibm_app thishanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nibm_app thishan.app/Nibm_app thishan";
+			};
+			name = Release;
+		};
+		A3952FF323641605007E8A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFECB404C1C40E473741985 /* Pods-Nibm_app thishanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nibm_app thishan";
+			};
+			name = Debug;
+		};
+		A3952FF423641605007E8A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7001646601E5AB8D8B98147 /* Pods-Nibm_app thishanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nibm_app thishanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.Nibm-app-thishanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nibm_app thishan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3952FBF23641604007E8A64 /* Build configuration list for PBXProject "Nibm_app thishan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3952FEA23641605007E8A64 /* Debug */,
+				A3952FEB23641605007E8A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3952FEC23641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3952FED23641605007E8A64 /* Debug */,
+				A3952FEE23641605007E8A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3952FEF23641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3952FF023641605007E8A64 /* Debug */,
+				A3952FF123641605007E8A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3952FF223641605007E8A64 /* Build configuration list for PBXNativeTarget "Nibm_app thishanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3952FF323641605007E8A64 /* Debug */,
+				A3952FF423641605007E8A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3952FBC23641604007E8A64 /* Project object */;
+}
