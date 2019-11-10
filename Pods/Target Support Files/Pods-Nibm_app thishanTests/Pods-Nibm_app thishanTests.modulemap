@@ -1,0 +1,6 @@
+framework module Pods_Nibm_app_thishanTests {
+  umbrella header "Pods-Nibm_app thishanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
