@@ -131,7 +131,7 @@ class SignUpViewController: UIViewController {
     func showError(_ message:String) {
         
         errorLabel.text = message
-        errorLabel.alpha = 1
+        errorLabel.alpha = 1 
     }
     
     func transitionToHome() {
