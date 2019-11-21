@@ -380,6 +380,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableview" destination="BN7-kp-gED" id="XfB-Qq-4lz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gh-Nf-dxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

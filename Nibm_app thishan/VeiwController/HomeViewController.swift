@@ -8,16 +8,60 @@
 
 import UIKit
 import Firebase
+import LocalAuthentication
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: UIViewController {var postsList : [AddPostModel] = []
+    var ref: DatabaseReference!
+    var window: UIWindow?
+    
+    @IBOutlet var tableview: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ref = Database.database().reference()
+        
+   //     tableview.dataSource = self
+ //       tableview.delegate = self
+        
+        getStudentData()
+       
 
         // Do any additional setup after loading the view.
     }
     
-
+    func getStudentData(){
+        
+        let friendsRef = ref.child("posts")
+        
+        
+        friendsRef.observe(.value){ snapshot in
+            for child in snapshot.children.allObjects as! [DataSnapshot] {
+                
+                let studentDic = child.value as! NSDictionary
+                
+                let title = studentDic["title"] as! String
+                let description = studentDic["desc"] as! String
+                let user = studentDic["user"] as! String
+                let image_url = studentDic["imageUrl"] as! String
+                
+                let post = AddPostModel(
+                    title: title,
+                    description: description,
+                    user: user ,
+                    image_url: image_url
+                )
+                
+                self.postsList.append(post)
+                
+                print(child)
+            }
+            
+            self.tableview.reloadData()
+            
+            
+        }
+    }
     
 
     /*
