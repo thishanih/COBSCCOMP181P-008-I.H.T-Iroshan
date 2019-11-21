@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GWM-Yi-rAB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BGt-yL-lmZ">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -359,10 +359,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="postDescription" destination="W5l-ZZ-UkM" id="IRk-qz-tb8"/>
-                                            <outlet property="postImage" destination="7yM-7m-x1D" id="T7G-4r-xee"/>
-                                            <outlet property="postTitle" destination="FHP-df-VEU" id="WHS-Wd-q3c"/>
-                                            <outlet property="userName" destination="dUa-Hp-A9e" id="PG2-8F-iOa"/>
+                                            <outlet property="postDescription" destination="W5l-ZZ-UkM" id="VZM-zh-dIp"/>
+                                            <outlet property="postImage" destination="7yM-7m-x1D" id="G3O-ZA-839"/>
+                                            <outlet property="postTitle" destination="FHP-df-VEU" id="vpK-Ks-x7G"/>
+                                            <outlet property="userName" destination="dUa-Hp-A9e" id="TqV-aK-wmk"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -466,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="px0-tF-Ict" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8003" y="1224"/>
+            <point key="canvasLocation" x="8870" y="1265"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="6Ed-eo-cby">
@@ -596,6 +596,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIH-Vj-yIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9207" y="-366"/>
+        </scene>
+        <!--Student Detail View Controller-->
+        <scene sceneID="RU3-cs-QcZ">
+            <objects>
+                <viewController id="KjH-bC-sDZ" customClass="StudentDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vav-oX-uA5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFY-Ra-Qo6" customClass="Stude">
+                                <rect key="frame" x="20" y="123" width="374" height="272"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="GYG-xL-sZu"/>
+                                    <constraint firstAttribute="width" constant="374" id="GvJ-Rh-deK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="60"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNF-aU-Eax">
+                                <rect key="frame" x="29" y="408" width="365" height="427"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsS-oR-gjF">
+                                <rect key="frame" x="29" y="44" width="99" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="leading" secondItem="GJw-YB-x6R" secondAttribute="leading" constant="29" id="03H-NP-vW5"/>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="top" secondItem="ZFY-Ra-Qo6" secondAttribute="bottom" constant="57" id="8K3-jQ-e7m"/>
+                            <constraint firstItem="UsS-oR-gjF" firstAttribute="top" secondItem="GJw-YB-x6R" secondAttribute="top" id="8kB-Sh-qwi"/>
+                            <constraint firstItem="GJw-YB-x6R" firstAttribute="bottom" secondItem="bNF-aU-Eax" secondAttribute="bottom" constant="27" id="CZh-Q6-HWv"/>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="top" secondItem="ZFY-Ra-Qo6" secondAttribute="bottom" constant="57" id="Cnu-5E-IC3"/>
+                            <constraint firstItem="ZFY-Ra-Qo6" firstAttribute="top" secondItem="GJw-YB-x6R" secondAttribute="top" constant="35" id="EOl-P5-NkE"/>
+                            <constraint firstItem="UsS-oR-gjF" firstAttribute="trailing" secondItem="Vav-oX-uA5" secondAttribute="trailingMargin" constant="-254" id="FjU-iI-PGg"/>
+                            <constraint firstItem="UsS-oR-gjF" firstAttribute="leading" secondItem="GJw-YB-x6R" secondAttribute="leading" constant="29" id="Gaz-DU-Cy1"/>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="top" secondItem="UsS-oR-gjF" secondAttribute="bottom" constant="323" id="Lte-iF-wVg"/>
+                            <constraint firstItem="UsS-oR-gjF" firstAttribute="leading" secondItem="GJw-YB-x6R" secondAttribute="leading" constant="29" id="RKQ-gB-ri2"/>
+                            <constraint firstItem="UsS-oR-gjF" firstAttribute="top" secondItem="GJw-YB-x6R" secondAttribute="top" id="SkF-5u-Fgz"/>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="top" secondItem="UsS-oR-gjF" secondAttribute="bottom" constant="323" id="UoG-Kh-WPv"/>
+                            <constraint firstItem="ZFY-Ra-Qo6" firstAttribute="leading" secondItem="GJw-YB-x6R" secondAttribute="leading" constant="20" id="f9o-x1-Wl4"/>
+                            <constraint firstItem="GJw-YB-x6R" firstAttribute="trailing" secondItem="bNF-aU-Eax" secondAttribute="trailing" constant="20" id="fIt-bB-Kwa"/>
+                            <constraint firstItem="bNF-aU-Eax" firstAttribute="leading" secondItem="GJw-YB-x6R" secondAttribute="leading" constant="29" id="h0o-0O-IF2"/>
+                            <constraint firstItem="ZFY-Ra-Qo6" firstAttribute="top" secondItem="GJw-YB-x6R" secondAttribute="top" constant="35" id="itt-0D-dKw"/>
+                            <constraint firstItem="GJw-YB-x6R" firstAttribute="trailing" secondItem="ZFY-Ra-Qo6" secondAttribute="trailing" constant="-234" id="nDc-Za-KCS"/>
+                            <constraint firstItem="ZFY-Ra-Qo6" firstAttribute="centerX" secondItem="Vav-oX-uA5" secondAttribute="centerX" id="uLK-oI-ujy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GJw-YB-x6R"/>
+                    </view>
+                    <connections>
+                        <outlet property="studentImage" destination="ZFY-Ra-Qo6" id="lYG-Ox-1l4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fab-U3-nvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8714" y="376"/>
         </scene>
     </scenes>
     <resources>

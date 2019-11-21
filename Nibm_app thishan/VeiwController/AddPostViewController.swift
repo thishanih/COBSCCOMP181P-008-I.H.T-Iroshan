@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class AddPostViewController: UIViewController {
     @IBOutlet var postTitle: UITextField!
