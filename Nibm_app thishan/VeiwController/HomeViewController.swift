@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {var postsList : [AddPostModel] = []
     var ref: DatabaseReference!
     var window: UIWindow?
     
+
     @IBOutlet var tableview: UITableView!
     
     override func viewDidLoad() {
@@ -21,9 +22,8 @@ class HomeViewController: UIViewController {var postsList : [AddPostModel] = []
         
         ref = Database.database().reference()
         
-   //     tableview.dataSource = self
- //       tableview.delegate = self
-        
+       tableview.dataSource = self
+        tableview.delegate = self
         getStudentData()
        
 
@@ -63,16 +63,36 @@ class HomeViewController: UIViewController {var postsList : [AddPostModel] = []
         }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return postsList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "friendCell", for: indexPath) as! PostCell
+        
+        
+        cell.populateData(post: postsList[indexPath.row])
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        performSegue(withIdentifier: "friendDetail", sender: postsList[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "friendDetail" {
+            if let viewController = segue.destination as? postsViewController{
+                
+                viewController.posts = sender as? AddPostModel
+            }
+        }
+    }
+}
+
+
 

@@ -9,15 +9,15 @@
 import UIKit
 import Nuke
 
-class PostCell: UIViewController {
+class PostCell: UITableViewCell {
     @IBOutlet var userName: UILabel!
     @IBOutlet var postTitle: UILabel!
     @IBOutlet var postImage: UIImageView!
     @IBOutlet var postDescription: UILabel!
     
-    override func viewDidLoad() {
+    override func awakeFromNib() {
          super.awakeFromNib()
-        super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
