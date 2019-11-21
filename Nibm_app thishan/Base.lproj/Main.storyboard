@@ -382,7 +382,7 @@
         <!--Add Post View Controller-->
         <scene sceneID="Vgr-vR-A0f">
             <objects>
-                <viewController id="6CT-FR-GtM" customClass="AddPostViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addPostNav" id="6CT-FR-GtM" customClass="AddPostViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OZO-Xk-q4Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -430,10 +430,16 @@
                                             <constraint firstAttribute="height" constant="50" id="Y5q-1S-WGz"/>
                                         </constraints>
                                         <state key="normal" title="Upload Image"/>
+                                        <connections>
+                                            <action selector="clickPick:" destination="6CT-FR-GtM" eventType="touchUpInside" id="ORG-Ku-Drt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xp9-56-dyj">
                                         <rect key="frame" x="0.0" y="610" width="374" height="50"/>
                                         <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="savePost:" destination="6CT-FR-GtM" eventType="touchUpInside" id="Mqe-K4-TV9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
