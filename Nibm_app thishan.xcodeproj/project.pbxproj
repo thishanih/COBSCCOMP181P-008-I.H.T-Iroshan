@@ -22,6 +22,7 @@
 		A774FF6D409D59E0B32B688D /* Pods_Nibm_app_thishan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */; };
 		A80AADBE237373F900F0E235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A80AADBD237373F900F0E235 /* GoogleService-Info.plist */; };
 		A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */; };
+		A83A7BDC23866CC700796ECA /* postsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A7BDB23866CC700796ECA /* postsViewController.swift */; };
 		A84571A7237609E60085DFD0 /* RestPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */; };
 		A86532E8238585D700BEE7F5 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532E7238585D700BEE7F5 /* NewPostViewController.swift */; };
 		A86532EC2386381F00BEE7F5 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */; };
@@ -77,6 +78,7 @@
 		A7001646601E5AB8D8B98147 /* Pods-Nibm_app thishanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nibm_app thishanUITests.release.xcconfig"; path = "Target Support Files/Pods-Nibm_app thishanUITests/Pods-Nibm_app thishanUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A80AADBD237373F900F0E235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A83A7BDB23866CC700796ECA /* postsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsViewController.swift; sourceTree = "<group>"; };
 		A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPasswordViewController.swift; sourceTree = "<group>"; };
 		A86532E7238585D700BEE7F5 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */,
 				A86532E7238585D700BEE7F5 /* NewPostViewController.swift */,
 				A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */,
+				A83A7BDB23866CC700796ECA /* postsViewController.swift */,
 			);
 			path = VeiwController;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				A86532EE2386484B00BEE7F5 /* Utils.swift in Sources */,
 				A3952FF823643017007E8A64 /* LoginViewController.swift in Sources */,
 				A86532EC2386381F00BEE7F5 /* AddPostViewController.swift in Sources */,
+				A83A7BDC23866CC700796ECA /* postsViewController.swift in Sources */,
 				A3952FF623642FF8007E8A64 /* SignUpViewController.swift in Sources */,
 				A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */,
 				A86532F423864CBA00BEE7F5 /* PostCell.swift in Sources */,
