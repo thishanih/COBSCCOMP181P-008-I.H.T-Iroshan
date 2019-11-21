@@ -1,10 +1,11 @@
 //
-//  AddPostModel.swift
-//  NIBM Article
+//  SignUpViewController.swift
+//  Nibm_app thishan
 //
-//  Created by Isuru Devinda on 11/20/2562 BE.
-//  Copyright © 2562 BE Isuru Devinda. All rights reserved.
+//  Created by Thushal Madhushankha on 10/26/19.
+//  Copyright © 2019 Thushal Madhushankha. All rights reserved.
 //
+
 
 import Foundation
 

@@ -54,7 +54,7 @@ class AddPostViewController: UIViewController {
     }
   
      @IBAction func savePost(_ sender: Any) {
-        
+        //validation for 
         if (postTitle.text == "") {
             alert(message: "title is required")
             return
