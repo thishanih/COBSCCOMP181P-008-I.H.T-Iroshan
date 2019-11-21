@@ -24,6 +24,9 @@
 		A81AB1BE23788CAB009F3D9A /* selfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AB1BD23788CAB009F3D9A /* selfViewController.swift */; };
 		A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */; };
 		A84571A7237609E60085DFD0 /* RestPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */; };
+		A86532E62385855500BEE7F5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532E52385855500BEE7F5 /* UserService.swift */; };
+		A86532E8238585D700BEE7F5 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532E7238585D700BEE7F5 /* NewPostViewController.swift */; };
+		A86532EC2386381F00BEE7F5 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */; };
 		A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAC4502374CBB100ECE1E7 /* Constants.swift */; };
 		C46F58B65406CD590B1F925F /* Pods_Nibm_app_thishanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394EC7B9644831AEEFA04F0 /* Pods_Nibm_app_thishanTests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +78,9 @@
 		A81AB1BD23788CAB009F3D9A /* selfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfViewController.swift; sourceTree = "<group>"; };
 		A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPasswordViewController.swift; sourceTree = "<group>"; };
+		A86532E52385855500BEE7F5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		A86532E7238585D700BEE7F5 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		A8DAC4502374CBB100ECE1E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibm_app_thishan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -183,6 +189,9 @@
 				A3952FC923641604007E8A64 /* ViewController.swift */,
 				A84571A6237609E60085DFD0 /* RestPasswordViewController.swift */,
 				A81AB1BD23788CAB009F3D9A /* selfViewController.swift */,
+				A86532E52385855500BEE7F5 /* UserService.swift */,
+				A86532E7238585D700BEE7F5 /* NewPostViewController.swift */,
+				A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */,
 			);
 			path = VeiwController;
 			sourceTree = "<group>";
@@ -426,12 +435,15 @@
 				A3952FFE236497B4007E8A64 /* Utilities.swift in Sources */,
 				A3952FFA23643040007E8A64 /* HomeViewController.swift in Sources */,
 				A3952FF823643017007E8A64 /* LoginViewController.swift in Sources */,
+				A86532EC2386381F00BEE7F5 /* AddPostViewController.swift in Sources */,
 				A3952FF623642FF8007E8A64 /* SignUpViewController.swift in Sources */,
 				A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */,
 				A3952FCA23641604007E8A64 /* ViewController.swift in Sources */,
 				A84571A7237609E60085DFD0 /* RestPasswordViewController.swift in Sources */,
+				A86532E62385855500BEE7F5 /* UserService.swift in Sources */,
 				A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */,
 				A3952FC823641604007E8A64 /* AppDelegate.swift in Sources */,
+				A86532E8238585D700BEE7F5 /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

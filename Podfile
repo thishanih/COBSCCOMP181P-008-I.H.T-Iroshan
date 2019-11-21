@@ -13,6 +13,7 @@ target 'Nibm_app thishan' do
 	pod 'Firebase/Firestore'
 pod 'Firebase/Database'
   pod 'Firebase/Storage'
+pod 'Nuke', '~> 7.0'
 
   target 'Nibm_app thishanTests' do
     inherit! :search_paths
