@@ -18,7 +18,8 @@ class AddPostViewController: UIViewController {
     @IBOutlet var Uploadimage: UIButton!
     @IBOutlet var savebu: UIButton!
     
-    
+    var imagePicker:UIImagePickerController!
+    var ref = DatabaseReference.init()
     
     
     

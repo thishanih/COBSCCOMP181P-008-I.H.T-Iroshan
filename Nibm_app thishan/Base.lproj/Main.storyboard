@@ -372,7 +372,13 @@
                         <viewLayoutGuide key="safeArea" id="Joc-ia-xBd"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Home" id="Jib-Rf-s4O"/>
+                    <navigationItem key="navigationItem" title="Home" id="Jib-Rf-s4O">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="bookmarks" id="aoo-w7-32x">
+                            <connections>
+                                <segue destination="6CT-FR-GtM" kind="show" id="YW4-Ra-6d4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gh-Nf-dxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -388,7 +394,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="53k-vX-AJc">
-                                <rect key="frame" x="20" y="64" width="374" height="660"/>
+                                <rect key="frame" x="20" y="160" width="374" height="660"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJp-UB-91e">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
@@ -659,7 +665,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fab-U3-nvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8714" y="376"/>
+            <point key="canvasLocation" x="8626" y="404"/>
         </scene>
     </scenes>
     <resources>
