@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import Firebase
 
+import FirebaseAuth
+import Firebase
 
 class MyProfileViewController: UIViewController {
 
@@ -92,19 +93,26 @@ class MyProfileViewController: UIViewController {
     
     @IBAction func handlesignOut(_ sender: Any) {
         
-        
-        let firebaseAuth = Auth.auth()
         do {
-            try firebaseAuth.signOut()
-        } catch let signOutError as NSError {
-            print ("Error signing out: %@", signOutError)
+            try Auth.auth().signOut()
+            transitionToLogin()
+        } catch {
+            
         }
-        UserDefaults.standard.removeObject(forKey: "LoggedUser")
-        UserDefaults.standard.removeObject(forKey: "LoggedIn")
-        UserDefaults.standard.removeObject(forKey: "UserUID")
-        UserDefaults.standard.synchronize()
+            
+            
+        
+        
     }
     
+    func transitionToLogin() {
+        
+        let loginViewController = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        view.window?.rootViewController = loginViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
 }
 
         

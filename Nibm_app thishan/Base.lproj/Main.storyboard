@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,20 +173,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="4k1-yM-Laf">
-                                <rect key="frame" x="40" y="340" width="334" height="140"/>
+                                <rect key="frame" x="40" y="340" width="334" height="160"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLc-lL-k5r">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="5aC-yl-hEJ"/>
-                                            <constraint firstAttribute="height" constant="30" id="LiK-MD-dPv"/>
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-af-Bx9">
-                                        <rect key="frame" x="0.0" y="90" width="334" height="50"/>
+                                        <rect key="frame" x="0.0" y="110" width="334" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="mGQ-CX-Jct"/>
                                         </constraints>
@@ -403,14 +402,7 @@
                         <viewLayoutGuide key="safeArea" id="Joc-ia-xBd"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Home" id="Jib-Rf-s4O">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="bookmarks" id="aoo-w7-32x">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <segue destination="6CT-FR-GtM" kind="show" id="0Qr-CJ-eGR"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Home" id="Jib-Rf-s4O"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableview" destination="BN7-kp-gED" id="BNU-y9-ZZJ"/>
@@ -418,11 +410,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gh-Nf-dxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7634.7826086956529" y="375.66964285714283"/>
+            <point key="canvasLocation" x="7607" y="324"/>
         </scene>
-        <!--My Profile View Controller-->
+        <!--profile-->
         <scene sceneID="CUH-QZ-qg3">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KyY-jU-onU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="vhJ-uF-wRO" customClass="MyProfileViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sUM-k6-bRs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -524,7 +517,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qkL-fC-ylT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="yIu-Et-r4z"/>
+                    <tabBarItem key="tabBarItem" tag="13" title="profile" image="profile" id="yIu-Et-r4z">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="15"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="fQl-8M-cov"/>
                     <connections>
                         <outlet property="birthdayLabel" destination="1em-sb-z86" id="M9o-bG-g80"/>
@@ -538,11 +533,10 @@
                         <outlet property="signButton" destination="NCz-EK-Ndp" id="vDg-bZ-hoM"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KyY-jU-onU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10913.04347826087" y="-419.19642857142856"/>
+            <point key="canvasLocation" x="9914" y="-239"/>
         </scene>
-        <!--Add Post View Controller-->
+        <!--Add Post-->
         <scene sceneID="Vgr-vR-A0f">
             <objects>
                 <viewController storyboardIdentifier="addPostNav" id="6CT-FR-GtM" customClass="AddPostViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
@@ -551,7 +545,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="53k-vX-AJc">
-                                <rect key="frame" x="20" y="170" width="374" height="585"/>
+                                <rect key="frame" x="20" y="74" width="374" height="585"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="jJp-UB-91e">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
@@ -618,6 +612,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bEO-ci-iJp"/>
                     </view>
+                    <tabBarItem key="tabBarItem" tag="13" title="Add Post" image="post" id="ZX4-aN-5Mh">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="17"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="Uploadimage" destination="SWU-FS-gqa" id="4AE-cB-znH"/>
                         <outlet property="postDesc" destination="IHK-Vp-L0V" id="jcY-u6-CsP"/>
@@ -629,7 +626,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="px0-tF-Ict" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8650.7246376811599" y="375.66964285714283"/>
+            <point key="canvasLocation" x="8896" y="362"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WK0-1g-Qeu">
@@ -689,18 +686,19 @@
                     </tabBar>
                     <connections>
                         <segue destination="Khz-AC-EWM" kind="relationship" relationship="viewControllers" id="kxP-js-Fcd"/>
-                        <segue destination="vhJ-uF-wRO" kind="relationship" relationship="viewControllers" id="3AS-uo-SeD"/>
+                        <segue destination="vhJ-uF-wRO" kind="relationship" relationship="viewControllers" id="oVa-H0-cAf"/>
+                        <segue destination="6CT-FR-GtM" kind="relationship" relationship="viewControllers" id="A2U-oQ-xGk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKr-FE-4xC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8707" y="-419"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="KJG-AS-NJV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Khz-AC-EWM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="13" image="home-icon-silhouette (4)" springLoaded="YES" id="JyG-8N-Wlc">
+                    <tabBarItem key="tabBarItem" tag="13" title="Home" image="home-icon-silhouette (4)" springLoaded="YES" id="JyG-8N-Wlc">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="17"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -722,13 +720,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IhF-5T-jQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6643" y="376"/>
+            <point key="canvasLocation" x="6636" y="323"/>
         </scene>
     </scenes>
     <resources>
         <image name="home" width="1734" height="1178"/>
         <image name="home-icon-silhouette (4)" width="32" height="32"/>
         <image name="login234" width="1640" height="1000"/>
+        <image name="post" width="32" height="32"/>
+        <image name="profile" width="32" height="32"/>
         <image name="signup" width="666" height="616"/>
     </resources>
 </document>
