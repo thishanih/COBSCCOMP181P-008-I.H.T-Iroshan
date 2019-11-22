@@ -154,18 +154,17 @@
 		A3952FC623641604007E8A64 /* Nibm_app thishan */ = {
 			isa = PBXGroup;
 			children = (
+				A8E532CC2387E01F00593089 /* helper */,
 				A86532F223864A1D00BEE7F5 /* Cellview */,
 				A86532EF2386499800BEE7F5 /* Models */,
 				A3952FC723641604007E8A64 /* AppDelegate.swift */,
-				A86532ED2386484B00BEE7F5 /* Utils.swift */,
-				A3952FFD236497B4007E8A64 /* Utilities.swift */,
+				A8DAC4502374CBB100ECE1E7 /* Constants.swift */,
 				A3952FCB23641604007E8A64 /* Main.storyboard */,
 				A3952FFC23645AFE007E8A64 /* VeiwController */,
 				A3952FCE23641605007E8A64 /* Assets.xcassets */,
 				A3952FD023641605007E8A64 /* LaunchScreen.storyboard */,
 				A80AADBD237373F900F0E235 /* GoogleService-Info.plist */,
 				A3952FD323641605007E8A64 /* Info.plist */,
-				A8DAC4502374CBB100ECE1E7 /* Constants.swift */,
 				A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */,
 			);
 			path = "Nibm_app thishan";
@@ -219,6 +218,15 @@
 				A86532F323864CBA00BEE7F5 /* PostCell.swift */,
 			);
 			path = Cellview;
+			sourceTree = "<group>";
+		};
+		A8E532CC2387E01F00593089 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				A86532ED2386484B00BEE7F5 /* Utils.swift */,
+				A3952FFD236497B4007E8A64 /* Utilities.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 		F59C1F2F126073C913445336 /* Pods */ = {

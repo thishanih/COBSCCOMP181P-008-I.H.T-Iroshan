@@ -20,6 +20,7 @@ class MyProfileViewController: UIViewController {
     @IBOutlet var emailLabel: UILabel!
     @IBOutlet var fetchButton: UIButton!
     @IBOutlet var errorLabel: UILabel!
+    @IBOutlet var signButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +33,7 @@ class MyProfileViewController: UIViewController {
         errorLabel.alpha=0
         
         Utilities.styleHollowButton(fetchButton);
-        
+        Utilities.styleFilledButton(signButton);
     }
     
     @IBAction func tappedview(_ sender: Any) {
@@ -86,6 +87,24 @@ class MyProfileViewController: UIViewController {
         errorLabel.text = message
         errorLabel.alpha = 1
     }
+    
+    
+    
+    @IBAction func handlesignOut(_ sender: Any) {
+        
+        
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        UserDefaults.standard.removeObject(forKey: "LoggedUser")
+        UserDefaults.standard.removeObject(forKey: "LoggedIn")
+        UserDefaults.standard.removeObject(forKey: "UserUID")
+        UserDefaults.standard.synchronize()
+    }
+    
 }
 
         
