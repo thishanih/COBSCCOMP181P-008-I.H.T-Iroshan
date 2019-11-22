@@ -524,7 +524,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qkL-fC-ylT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="user" id="0M3-LV-lEk"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="yIu-Et-r4z"/>
                     <navigationItem key="navigationItem" id="fQl-8M-cov"/>
                     <connections>
                         <outlet property="birthdayLabel" destination="1em-sb-z86" id="M9o-bG-g80"/>
@@ -540,7 +540,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KyY-jU-onU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10002.898550724638" y="-419.19642857142856"/>
+            <point key="canvasLocation" x="10913.04347826087" y="-419.19642857142856"/>
         </scene>
         <!--Add Post View Controller-->
         <scene sceneID="Vgr-vR-A0f">
@@ -677,10 +677,10 @@
             </objects>
             <point key="canvasLocation" x="3268.115942028986" y="536.38392857142856"/>
         </scene>
-        <!--Main-->
+        <!--Tab View Controller-->
         <scene sceneID="MD9-T4-ayW">
             <objects>
-                <tabBarController storyboardIdentifier="HomeTVC" automaticallyAdjustsScrollViewInsets="NO" id="BGt-yL-lmZ" customClass="Main" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="HomeTVC" automaticallyAdjustsScrollViewInsets="NO" id="BGt-yL-lmZ" customClass="TabViewController" customModule="Nibm_app_thishan" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hjl-LD-Bc1">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -689,7 +689,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="Khz-AC-EWM" kind="relationship" relationship="viewControllers" id="kxP-js-Fcd"/>
-                        <segue destination="vhJ-uF-wRO" kind="relationship" relationship="viewControllers" id="rmw-xT-CeS"/>
+                        <segue destination="vhJ-uF-wRO" kind="relationship" relationship="viewControllers" id="3AS-uo-SeD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKr-FE-4xC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -730,6 +730,5 @@
         <image name="home-icon-silhouette (4)" width="32" height="32"/>
         <image name="login234" width="1640" height="1000"/>
         <image name="signup" width="666" height="616"/>
-        <image name="user" width="32" height="32"/>
     </resources>
 </document>

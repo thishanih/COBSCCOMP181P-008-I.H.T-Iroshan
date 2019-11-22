@@ -165,7 +165,6 @@
 				A3952FD023641605007E8A64 /* LaunchScreen.storyboard */,
 				A80AADBD237373F900F0E235 /* GoogleService-Info.plist */,
 				A3952FD323641605007E8A64 /* Info.plist */,
-				A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */,
 			);
 			path = "Nibm_app thishan";
 			sourceTree = "<group>";
@@ -199,6 +198,7 @@
 				A86532E7238585D700BEE7F5 /* NewPostViewController.swift */,
 				A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */,
 				A83A7BDB23866CC700796ECA /* postsViewController.swift */,
+				A81AB1FC2378A981009F3D9A /* TabBarViewController.swift */,
 				A8E532C22387768D00593089 /* MyProfileViewController.swift */,
 			);
 			path = VeiwController;

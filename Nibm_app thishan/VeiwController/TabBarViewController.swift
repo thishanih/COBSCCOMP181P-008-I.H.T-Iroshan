@@ -24,12 +24,12 @@
             if viewController.isKind(of: MyProfileViewController.self) {
                 
                 //call biometric authentcation library
-                BioMetricAuthenticator.authenticateWithBioMetrics(reason: "Identify yourself") { (result) in
+                BioMetricAuthenticator.authenticateWithBioMetrics(reason: "Bio matrix") { (result) in
                     
                     switch result {
                     case .success( _):
                         print("Access Granted!")
-                        self.selectedIndex = 2
+                        self.selectedIndex = 1
                     case .failure(let error):
                         print("Access Denied!")
                         
