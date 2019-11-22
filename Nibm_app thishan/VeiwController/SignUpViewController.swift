@@ -100,7 +100,7 @@ class SignUpViewController: UIViewController {
             let birthdate = birthdateTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let phone = phoneTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            
+            let profile_photo = "<add_url_here>"
             // Create the user
             Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
                 
@@ -119,6 +119,7 @@ class SignUpViewController: UIViewController {
                                                               "lastname":lastName,
                                                               "birthdate":birthdate,
                                                               "phone":phone,
+                                                              "profile_photo":profile_photo,
                                                               "uid": result!.user.uid ]) { (error) in
                         
                         if error != nil {

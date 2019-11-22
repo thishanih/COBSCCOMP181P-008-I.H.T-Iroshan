@@ -30,6 +30,7 @@
 		A86532F1238649B300BEE7F5 /* AddPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532F0238649B300BEE7F5 /* AddPostModel.swift */; };
 		A86532F423864CBA00BEE7F5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86532F323864CBA00BEE7F5 /* PostCell.swift */; };
 		A8DAC4512374CBB100ECE1E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAC4502374CBB100ECE1E7 /* Constants.swift */; };
+		A8E532C32387768D00593089 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E532C22387768D00593089 /* MyProfileViewController.swift */; };
 		C46F58B65406CD590B1F925F /* Pods_Nibm_app_thishanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394EC7B9644831AEEFA04F0 /* Pods_Nibm_app_thishanTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		A86532F0238649B300BEE7F5 /* AddPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostModel.swift; sourceTree = "<group>"; };
 		A86532F323864CBA00BEE7F5 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A8DAC4502374CBB100ECE1E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8E532C22387768D00593089 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		EF66A7C699D5025AB222D6BC /* Pods_Nibm_app_thishan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibm_app_thishan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 				A86532E7238585D700BEE7F5 /* NewPostViewController.swift */,
 				A86532EB2386381F00BEE7F5 /* AddPostViewController.swift */,
 				A83A7BDB23866CC700796ECA /* postsViewController.swift */,
+				A8E532C22387768D00593089 /* MyProfileViewController.swift */,
 			);
 			path = VeiwController;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				A86532F1238649B300BEE7F5 /* AddPostModel.swift in Sources */,
 				A81AB1FD2378A981009F3D9A /* TabBarViewController.swift in Sources */,
 				A3952FC823641604007E8A64 /* AppDelegate.swift in Sources */,
+				A8E532C32387768D00593089 /* MyProfileViewController.swift in Sources */,
 				A86532E8238585D700BEE7F5 /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
