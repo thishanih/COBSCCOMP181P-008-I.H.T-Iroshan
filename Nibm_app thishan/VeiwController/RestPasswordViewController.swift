@@ -45,6 +45,8 @@ setUpElements ()
                 let resetEmailAlertSent = UIAlertController(title: "Reset Email Sent", message: "Reset email has been sent to your login email, please follow the instructions in the mail to reset your password", preferredStyle: .alert)
                 resetEmailAlertSent.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(resetEmailAlertSent, animated: true, completion: nil)
+                
+                 self.transitionToLogin()
             }
         }
     }
@@ -52,4 +54,12 @@ setUpElements ()
         
     
     
+    func transitionToLogin() {
+        
+        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        view.window?.rootViewController = loginViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
 }

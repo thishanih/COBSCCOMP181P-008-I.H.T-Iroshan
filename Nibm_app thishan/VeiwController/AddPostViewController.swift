@@ -72,6 +72,7 @@ class AddPostViewController: UIViewController {
         navigationController?.popViewController(animated: true)
         
     }
+    
     func saveFIRData(){
         self.uploadMedia(image: postIMAGE.image!){ url in
             self.saveImage(profileImageURL: url!){ success in

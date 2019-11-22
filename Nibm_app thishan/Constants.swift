@@ -17,5 +17,7 @@ struct Constants {
         static let tabBarController = "HomeTVC"
         
         static let mainStoryBoard = "Main"
+        
+        static let loginViewController = "LoginVC"
 }
 }
