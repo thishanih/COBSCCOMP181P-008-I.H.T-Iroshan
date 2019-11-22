@@ -11,6 +11,9 @@ import Firebase
 
 
 class ViewController: UIViewController {
+    
+    
+    
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var loginUpButton: UIButton!
     
@@ -28,5 +31,10 @@ class ViewController: UIViewController {
         Utilities.styleHollowButton(loginUpButton);
     }
 
+   
+    
+    
+    
+    
 }
 

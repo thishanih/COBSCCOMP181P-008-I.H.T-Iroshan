@@ -25,10 +25,14 @@ class MyProfileViewController: UIViewController {
         super.viewDidLoad()
        setupElement()
         // Do any additional setup after loading the view.
+       
     }
     
     func setupElement(){
         errorLabel.alpha=0
+        
+        Utilities.styleHollowButton(fetchButton);
+        
     }
     
     @IBAction func tappedview(_ sender: Any) {
@@ -50,11 +54,15 @@ class MyProfileViewController: UIViewController {
                             let lastName = document.get("lastname")
                             let mobileNumber = document.get("phone")
                             let profilePhoto = document.get("profile_photo")
+                            let birthday = document.get("birthdate")
+                            let email = document.get("email")
                             
                             
-                            
+    
                             self.firstNameLabel.text = firstName as? String
                             self.lastNameLabel.text = lastName as? String
+                            self.birthdayLabel.text = birthday as? String
+                            self.emailLabel.text = email as? String
                             self.mobileNumberLabel.text = mobileNumber as? String
                             
                             if let url = NSURL (string: profilePhoto as! String) {
